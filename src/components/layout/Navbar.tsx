@@ -7,17 +7,15 @@ export default function Navbar() {
     <nav className="nav">
       <a href="#top" className="brand">{profile.short}</a>
       <div>
-        <a href="#story">Story</a>
-        <a href="#services">Services</a>
-          <a href="#work">Work</a>
         <a href="#experience">Experience</a>
+        <a href="#services">Services</a>
         <a href="#credentials">Credentials</a>
         <a href="#contact" className="pill">Hire me</a>
       </div>
       <details className="mobile-menu">
         <summary aria-label="Navigation menu"><span></span><span></span></summary>
         <div className="mobile-menu-links" onClick={(event) => { if ((event.target as HTMLElement).closest("a")) event.currentTarget.closest("details")?.removeAttribute("open"); }}>
-          <a href="#story">Story</a><a href="#services">Services</a><a href="#work">Work</a><a href="#experience">Experience</a><a href="#credentials">Credentials</a><a href="#contact">Get in touch ↗</a>
+          <a href="#experience">Experience</a><a href="#services">Services</a><a href="#credentials">Credentials</a><a href="#contact">Get in touch ↗</a>
         </div>
       </details>
     </nav>

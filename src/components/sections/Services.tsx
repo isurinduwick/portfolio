@@ -24,10 +24,6 @@ export default function Services() {
             </article>
           ))}
         </div>
-        <div className="services-support">
-          <div><p className="services-eyebrow">Giving back</p><h3>Starting your developer journey?</h3><p>I offer free support to Flutter beginners and aspiring developers, especially undergraduates. Bring your questions and let’s learn together.</p></div>
-          <a href="#contact">Get in touch <span aria-hidden="true">↗</span></a>
-        </div>
       </div>
     </section>
   );

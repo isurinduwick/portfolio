@@ -1,58 +1,6 @@
 import type { Experience } from "@/types";
 
-export const experience: Experience[] = [
-  {
-    company: "Udemy", type: "Self-employed", place: "San Francisco, California, United States. Remote",
-    roles: [{ title: "Course Creator (Flutter Development)", period: "Jul 2026 – Present · 5 mos" }],
-    skills: ["Mobile Application Development", "Flutter"],
-  },
-  {
-    company: "Zeusgen (Pvt) Ltd", type: "Full-time", place: "20 St Michaels Rd, Colombo 00300. Hybrid",
-    roles: [{ title: "Associate Software Engineer", period: "Nov 2025 – Present · 1 yr 1 mo" }],
-    summary: "Mobile, full-stack and AI work, including an AI-based recruitment platform built on a multi-model architecture that saves token usage.",
-    skills: ["Flutter", "Laravel"],
-  },
-  {
-    company: "Sysco LABS", type: "Freelance", place: "1390 Enclave Parkway, Houston, TX 77077. Remote",
-    roles: [{ title: "Mobile Quality Engineer", period: "Dec 2025 – Jan 2026 · 2 mos" }],
-    summary: "I worked as a Freelance Mobile Quality Engineer on a 2 month project with Sysco LABS, responsible for testing and ensuring the quality of mobile applications. This role involved performing functional, usability, and performance testing, identifying bugs, and collaborating with developers to deliver a high-quality mobile product. The project enhanced my skills in mobile QA processes, bug tracking, and quality assurance best practices in a real world environment.",
-  },
-  {
-    company: "eSupport", type: "Full-time · 7 mos", place: "15 Kuruppu Rd, Colombo 00800. On-site",
-    roles: [
-      { title: "Mobile Team Lead (Intern)", period: "Jun 2025 – Nov 2025 · 6 mos" },
-      { title: "Software Engineer (Mobile) Intern", period: "May 2025 – Nov 2025 · 7 mos" },
-    ],
-    summary: "Took full ownership of two production Flutter apps, from architecture and backend integration to CI/CD and Google Play Store deployment, while leading the mobile team and collaborating with Business Analysis to ship high-performance applications.",
-    projects: [
-      {
-        title: "Yaka.lk: Real-Time Classified Ads Platform", kind: "Mobile app",
-        intro: "Live on Google Play Store. Similar in scale to Ikman.lk.",
-        bullets: [
-          "Led Flutter development of both User App and Admin App (Android & iOS)",
-          "Built secure Laravel REST APIs for auth, ad management & search",
-          "Designed role-based Admin panel: approvals, user controls, notifications",
-          "Integrated Gemini API for AI-powered ad description generation",
-          "Implemented CI/CD pipelines for automated builds & Play Store releases",
-          "Optimized image rendering; full API testing with Postman",
-        ],
-        tech: ["Flutter", "Laravel", "Firebase", "Gemini API", "MVVM", "CI/CD", "Git"],
-      },
-      {
-        title: "UPS Maintenance App: Field Technician Tool", kind: "Mobile app",
-        intro: "A field tool for technicians and customer requests.",
-        bullets: [
-          "Built complete Flutter + Laravel app for technicians & customer requests",
-          "Integrated Google Maps API for real-time technician navigation",
-          "Automated billing with invoice delivery via email & SMS (OneSignal)",
-          "Implemented JWT auth; collaborated with backend and QA teams",
-        ],
-        tech: ["Flutter", "Laravel", "Google Maps API", "Firebase", "OneSignal", "Git"],
-      },
-    ],
-    recognition: "Recognized for leading with ownership beyond the intern role, delivering production-ready solutions and managing the mobile team independently.",
-    skills: ["Flutter", "Mobile Application Development"],
-  },
+export const career: Experience[] = [
   {
     company: "WHYTEQ", type: "Internship", place: "Remote",
     roles: [{ title: "Software Engineer Intern", period: "Oct 2024 – Apr 2025 · 7 mos" }],
@@ -90,6 +38,61 @@ export const experience: Experience[] = [
       },
     ],
     skills: ["Web Development", "Mobile Application Development"],
+  },
+  {
+    company: "eSupport", type: "Full-time · 7 mos", place: "15 Kuruppu Rd, Colombo 00800. On-site",
+    roles: [
+      { title: "Software Engineer (Mobile) Intern", period: "May 2025 – Nov 2025 · 7 mos" },
+      { title: "Mobile Team Lead (Intern)", period: "Jun 2025 – Nov 2025 · 6 mos" },
+    ],
+    summary: "I handled the Flutter app architecture under guidance and worked on backend integration for two production apps. As mobile team lead, I coordinated delivery with business analysts and QA and took builds through CI/CD to Google Play.",
+    projects: [
+      {
+        title: "Yaka.lk: Real-Time Classified Ads Platform", kind: "Mobile app",
+        intro: "Published on Google Play, with separate workflows for customers and administrators.",
+        bullets: [
+          "Led Flutter development of both User App and Admin App (Android & iOS)",
+          "Built secure Laravel REST APIs for auth, ad management & search",
+          "Designed role-based Admin panel: approvals, user controls, notifications",
+          "Integrated Gemini API for AI-powered ad description generation",
+          "Implemented CI/CD pipelines for automated builds & Play Store releases",
+          "Improved image rendering in listings and tested API responses in Postman",
+        ],
+        tech: ["Flutter (MVVM)", "Laravel REST APIs", "Firebase", "Gemini API", "Postman", "Google Play CI/CD"],
+      },
+      {
+        title: "UPS Maintenance App: Field Technician Tool", kind: "Mobile app",
+        intro: "A field tool for technicians and customer requests.",
+        bullets: [
+          "Built complete Flutter + Laravel app for technicians & customer requests",
+          "Integrated Google Maps API for real-time technician navigation",
+          "Automated billing with invoice delivery via email & SMS (OneSignal)",
+          "Implemented JWT auth; collaborated with backend and QA teams",
+        ],
+        tech: ["Flutter", "Laravel APIs", "JWT authentication", "Google Maps API", "Firebase", "OneSignal"],
+      },
+    ],
+    recognition: "Recognized for leading with ownership beyond the intern role, delivering production-ready solutions and managing the mobile team independently.",
+    skills: ["Flutter", "Mobile Application Development"],
+  },
+  {
+    company: "Zeusgen (Pvt) Ltd", type: "Full-time", place: "20 St Michaels Rd, Colombo 00300. Hybrid",
+    roles: [{ title: "Associate Software Engineer", period: "Nov 2025 – Present" }],
+    summary: "At Zeusgen, I focus on Flutter mobile development and contribute to full-stack web applications. My work includes an AI recruitment platform that uses multiple models to keep token usage down.",
+    skills: ["Flutter", "Laravel"],
+  },
+];
+
+export const freelance: Experience[] = [
+  {
+    company: "Sysco LABS", type: "Freelance", place: "1390 Enclave Parkway, Houston, TX 77077. Remote",
+    roles: [{ title: "Mobile Quality Engineer", period: "Dec 2025 – Jan 2026 · 2 mos" }],
+    summary: "I tested mobile workflows for usability, functionality and performance, documented reproducible defects and worked with developers to verify fixes.",
+  },
+  {
+    company: "Emerald Bay Resorts", type: "Freelance", place: "Mirissa, Sri Lanka",
+    roles: [{ title: "Full-stack developer and hotel IT partner", period: "Ongoing engagement" }],
+    summary: "I built the resort website, then worked directly with staff on QR ordering, business email and a billing system. Guests can order to their rooms and receive an electronic bill. My ongoing work includes revenue management and an OTA channel manager.",
   },
 ];
 

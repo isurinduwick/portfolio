@@ -11,9 +11,32 @@ export const chapters: Chapter[] = [
 ];
 
 export const strengths: Strength[] = [
-  ["I take ownership", "From architecture to the Play Store, I own the outcome. At eSupport I was recognized for leading beyond my intern role, and at Emerald Bay I run the project end to end."],
-  ["I ship fast", "I’ve worked with Claude Code, GitHub Copilot and other coding agents for over a year, so freelance projects reach my clients quickly."],
-  ["I earn repeat work", "One website for Emerald Bay Resorts turned into five more projects."],
-  ["I keep AI costs down", "At Zeusgen I built an AI recruitment platform on a multi-model architecture that saves token usage."],
-  ["I explain things clearly", "I’ve taught classes since 2021 and I explain scenarios to the interns I work with at Zeusgen. That makes me easy to work with."],
+  [
+    "I learn and grow with my team",
+    "As a junior engineer, I work with guidance from my lead, ask questions and apply feedback. I learn quickly from the people around me and contribute to the team while building my Flutter skills."
+  ],
+  [
+    "I work with my lead’s guidance",
+    "When a task is unfamiliar or affects an existing feature, I discuss the approach with my lead, learn from their guidance and work with the team to check the result."
+  ],
+  [
+    "I build on strong fundamentals",
+    "My knowledge of software engineering fundamentals helps me understand how Flutter applications work, make informed decisions and assess whether a solution is accurate, readable and reusable."
+  ],
+  [
+    "I write code another developer can change",
+    "If 100 text fields across different screens need a new font size, asking Claude to change each field separately is difficult to sustain and can introduce inconsistencies, bugs and extra QA work. Keeping the style in a shared place makes the change easier to review, reuse and maintain."
+  ],
+  [
+    "Beyond vibe coding",
+    "I use AI to assist my work, while applying my software engineering fundamentals to understand and review the result. I check whether the code is accurate, readable and reusable. AI can repeat an inefficient solution or the same problem across an app, so I review changes with my team and focus on code that can be maintained."
+  ],
+  [
+    "I keep improving performance",
+    "I’m learning more about performance optimization while applying it to my work. I investigate issues, check how the app behaves and compare results after changes to understand whether they improve the user experience."
+  ],
+  [
+    "Clients come back",
+    "Emerald Bay Resorts first hired me to build its website. Five more projects followed, including QR ordering for guests and billing tools for the hotel team."
+  ]
 ];

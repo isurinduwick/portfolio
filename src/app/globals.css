@@ -377,3 +377,5 @@ footer { padding: 28px 20px; text-align: center; font-size: 13px; color: #86868b
   .certs .id { overflow-wrap: anywhere; }
   [data-reveal] { opacity: 1; transform: none; }
 }
+
+#experience .job h4 { font-size: 1.25rem; margin: 0; }
